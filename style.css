@@ -1,52 +1,76 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color:#F8FAFE;
-    --secondary-color:#8A2D5E;
-    --terciary-color:#000000
+:root {
+    --primary-color: #F8FAFE;
+    --secondary-color: #8A2D5E;
+    --terciary-color: #000000
 }
 
-body{
-    height: 100vh;
+body {
     background-color: var(--primary-color);
+    display: flex;
+    height: 50px;
+    width: 300px;
+    margin: 10px 0px 10px;
+    font: 3px;
 }
 
-header{
-   position: absolute;
-   height: 59.9px;
-   top: 25px;
-   left: 36px;
-   width: 1850px;
-   justify-content: center;
-   align-items: center;
+header {
+    position: absolute;
+    height: 59.9px;
+    top: 25px;
+    left: 36px;
+    width: 1850px;
+    justify-content: center;
+    align-items: center;
 }
-.logo{
+
+main {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+footer {
+    display: flex;
+    transform: translate(845px, 913px);
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 1px var(--secondary-color);
+    gap: 5px;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
     width: 268px;
     height: 59.9px;
     left: 0px;
     top: 24px;
 }
 
-.lista{
-   display: flex;
-   width: 386px;
-   height: 27px;
-   left: 482px;
-   top: 15px;
-   position: absolute;
-   font-family: 'Poppins';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 20px ;
-   line-height: 27px;
-   list-style: none;
+.lista {
+    display: flex;
+    width: 386px;
+    height: 27px;
+    left: 482px;
+    top: 15px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    list-style: none;
 }
 
-.lista2{
+.lista2 {
     position: absolute;
     display: flex;
     width: 134px;
@@ -55,38 +79,37 @@ header{
     left: 1151px;
 }
 
-.l1{
+.l1 {
     margin-left: 250px;
 }
-.l2{
+
+.l2 {
     margin-left: 35px;
 }
-.l3{
+
+.l3 {
     margin-left: 35px;
 }
-.l4{
+
+.l4 {
     margin-left: 35px;
 }
-.l5{
+
+.l5 {
     margin-left: 15px;
     transform: translateY(-2%);
 }
-.l6{
+
+.l6 {
     margin-left: 25px;
 }
-.l7{
+
+.l7 {
     margin-left: 25.92px;
     transform: translateY(-2%);
 }
 
-main{
-    display: flex;
-    position: absolute;
-    left: 200px;
-    top: 150px;
-   
-}
-.iron{
+.iron {
     position: absolute;
     display: flex;
     width: 316px;
@@ -94,9 +117,10 @@ main{
     left: -150px;
     margin-top: -50px;
     margin-left: 950px;
+    transform: translate(10px, );
 }
 
-.t1{
+.t1 {
     position: absolute;
     width: 200px;
     height: 23.56px;
@@ -107,7 +131,8 @@ main{
     font-weight: 400;
     font-size: 15px;
 }
-.t2{
+
+.t2 {
     position: absolute;
     width: 500px;
     height: 93px;
@@ -120,7 +145,8 @@ main{
     line-height: 93px;
     color: var(--secondary-color);
 }
-.t3{
+
+.t3 {
     position: absolute;
     width: 122px;
     height: 32px;
@@ -132,7 +158,8 @@ main{
     font-size: 23px;
     line-height: 31px;
 }
-.t4{
+
+.t4 {
     position: absolute;
     width: 430px;
     height: 152px;
@@ -146,7 +173,8 @@ main{
     width: 430px;
     height: 152px;
 }
-.botao{
+
+.botao {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -157,12 +185,13 @@ main{
     height: 57px;
     left: 0px;
     top: 350px;
-    background:#383838 ;
+    background: #383838;
     font-family: 'Poppins';
     font-style: normal;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
-.icones{
+
+.icones {
     list-style: none;
     position: absolute;
     width: 50px;
@@ -170,7 +199,8 @@ main{
     left: -100px;
     top: 530px;
 }
-.next{
+
+.next {
     position: absolute;
     width: 271px;
     height: 31px;
@@ -180,15 +210,17 @@ main{
     font-style: normal;
     font-weight: 600;
     font-size: 23px;
-    line-height: 31px;  
+    line-height: 31px;
     color: #383838;
 }
-.seta{
+
+.seta {
     position: relative;
     top: 4px;
     left: 13px;
 }
-.IronLateral{
+
+.IronLateral {
     position: absolute;
     width: 817px;
     height: 183px;
