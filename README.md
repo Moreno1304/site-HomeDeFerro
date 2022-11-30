@@ -6,7 +6,7 @@
 
 ## Sobre
 Site do tipo landing page para divulgar o personagem Iron Main da Marvel.
-O objetivo é colocar em pratica os conhecimentos adquiridos no [Senai](https://jandira.sp.senai.br/).
+O objetivo é colocar em pratica os conhecimentos adquiridos no [Senai Jandira](https://jandira.sp.senai.br/).
 
 ---
 
